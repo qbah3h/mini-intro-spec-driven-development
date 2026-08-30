@@ -47,13 +47,13 @@ Consulta specs/mission.md y specs/tech-stack.md para obtener orientacion.
 
 ## Prompt 6
 
-Implementa la fase 1 del roadmap guiandote por la especificacion
+Implementa la fase 1 del roadmap guiandote por la especificacion.
 
 # Validacion
 
 ## Prompt 7
 
-Actualiza la spec para agregar el footer como un componente
+Actualiza la spec para agregar el footer como un componente.
 
 ## Prompt 8
 
@@ -61,15 +61,15 @@ Implementa la actualizacion de la spec
 
 ## Prompt 9
 
-Agrega contenido a la pagina de inicio con informacion de quienes somos. Las imagenes no se ven
+Agrega contenido a la pagina de inicio con informacion de quienes somos. Las imagenes no se ven.
 
 ## Prompt 10
 
-Actualiza la spec con los cambios realizados
+Actualiza la spec con los cambios realizados.
 
 ## Prompt 11
 
-Marca la fase como completa, haz commit del trabajo, cambia a la rama main, haz merge y elimina la rama de la fase
+Marca la fase como completa, haz commit del trabajo, cambia a la rama main, haz merge y elimina la rama de la fase.
 
 # Replan
 
@@ -108,3 +108,4 @@ Ve a roadmap.md y crea una fase nueva con la autenticacion para el personal. El 
 ## Prompt 15
 
 Marca la fase 1 del roadmap completa, haz commit, actualiza el changelog con la skill changelog.
+

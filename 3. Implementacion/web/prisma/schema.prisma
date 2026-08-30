@@ -1,0 +1,41 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Dish {
+  id          String   @id @default(cuid())
+  name        String
+  description String
+  price       Int
+  image       String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  items       OrderItem[]
+}
+
+model Order {
+  id          String      @id @default(cuid())
+  customer    String
+  phone       String
+  address     String
+  notes       String?
+  total       Int
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  items       OrderItem[]
+}
+
+model OrderItem {
+  id       String @id @default(cuid())
+  quantity Int
+  price    Int
+  dish     Dish   @relation(fields: [dishId], references: [id])
+  dishId   String
+  order    Order  @relation(fields: [orderId], references: [id])
+  orderId  String
+}
