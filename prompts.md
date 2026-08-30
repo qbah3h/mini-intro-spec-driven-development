@@ -57,7 +57,7 @@ Actualiza la spec para agregar el footer como un componente.
 
 ## Prompt 8
 
-Implementa la actualizacion de la spec
+Implementa la actualizacion de la spec.
 
 ## Prompt 9
 
@@ -103,7 +103,7 @@ Comitea, cambia a master, mergea esta rama y despues eliminala.
 
 ## Prompt 14
 
-Ve a roadmap.md y crea una fase nueva con la autenticacion para el personal. El dashboard debe ser accessible desde una tab para la fase 2.
+Ve a roadmap.md y crea una fase nueva con la autenticacion para el personal mas adelante. El dashboard debe ser accessible sin login desde una tab para la fase 2.
 
 ## Prompt 15
 
